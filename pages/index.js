@@ -1,15 +1,11 @@
-{
-  "name": "maintenance-frontend",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "^14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.6.0"
-  }
+import Navbar from '../components/Navbar';
+
+export default function Home() {
+  return (
+    <div>
+      <Navbar />
+      <h1>Welcome to Maintenance Services</h1>
+      <p>Book maintenance or buy products related to Low Current Systems.</p>
+    </div>
+  );
 }
